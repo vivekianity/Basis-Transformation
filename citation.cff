@@ -1,0 +1,51 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Basis Transformation
+message: >-
+  If you use this repository or its ideas, please cite the associated research paper listed below as the preferred citation.
+type: software
+authors:
+  - given-names: Pradyun
+    family-names: Parayil
+    affiliation: >-
+      Amrita School of Engineering, Coimbatore Amrita Vishwa Vidyapeetham
+    orcid: 'https://orcid.org/0009-0008-7534-1607'
+  - given-names: Amal
+    family-names: Raj
+    affiliation: Singapore Institute of Technology
+    orcid: 'https://orcid.org/0009-0001-4025-1045'
+  - given-names: Vivek
+    family-names: Balachandran
+    affiliation: Singapore Institute of Technology
+    orcid: 'https://orcid.org/0000-0003-4847-7150'
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2512.19314
+    description: ArXiv Link of the research paper
+repository-code: 'https://github.com/vivekianity/Basis-Transformation'
+abstract: >-
+  Quantum circuit obfuscation is becoming increasingly important to prevent theft and reverse engineering of quantum algorithms. As quantum computing advances, the need to protect the intellectual property contained in
+  quantum circuits continues to grow. Existing methods often provide limited defense against structural and statistical analysis or introduce considerable overhead. In this paper, we propose a novel quantum obfuscation method that
+  uses randomized U3 transformations to conceal circuit structure while preserving functionality. We implement and assess our approach on QASM circuits using Qiskit AER, achieving over 93% semantic accuracy with minimal runtime
+  overhead. The method demonstrates strong resistance to reverse engineering and structural inference, making it a practical and effective approach for quantum software protection.
+keywords:
+  - Quantum Obfuscation
+  - Basis Conjugation
+  - Randomized Basis Transformation
+  - QASM Compatibility
+  - Compiler-Resistant Quantum Security
+  - Quantum Circuit Security
+preferred-citation:
+  type: article
+  title: Protecting Quantum Circuits Through Compiler-Resistant Obfuscation
+  authors:
+    - given-names: Pradyun
+      family-names: Parayil
+    - given-names: Amal
+      family-names: Raj
+    - given-names: Vivek
+      family-names: Balachandran
+  year: 2025
+  doi: 10.48550/arXiv.2512.19314
